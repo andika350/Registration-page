@@ -14,17 +14,17 @@
 	<form name="regis">
 		<h3>Keterangan Pribadi</h3>
 		<label for="nama">Nama Lengkap: </label><br>
-		<input type="text" name="nama" required=""><br>
+		<input type="text" name="nama" required="" placeholder="e.g. Andika Satrio"><br>
 
 		<label for="namap">Nama Panggilan: </label><br>
-		<input type="text" name="namap" required=""><br>
+		<input type="text" name="namap" required="" placeholder="e.g. Dika"><br>
 
 		<label for="gender">Jenis Kelamin: </label><br>
 		<input type="radio" name="gender" value="male" checked="" required="">Pria
 		<input type="radio" name="gender" value="female">Wanita<br>
 
 		<label for="tempatLahir">Tempat Lahir: </label><br>
-		<input type="text" name="tempatLahir" required=""><br>
+		<input type="text" name="tempatLahir" required="" placeholder="e.g. Jakarta"><br>
 
 		<label for="tanggalLahir">Tanggal Lahir: </label><br>
 		<input type="date" name="tanggalLahir" required=""><br>
@@ -37,13 +37,13 @@
 		<input type="radio" name="agama" value="Hindu"> Hindu<br>
 
 		<label for="kewarganegaraan">Kewarganegaraan </label><br>
-		<input type="text" name="kewarganegaraan" required=""><br>
+		<input type="text" name="kewarganegaraan" required="" placeholder="e.g. Namek"><br>
 
 		<label for="anakke">Anak ke: </label><br>
-		<input type="text" name="anakke" required=""><br>
+		<input type="text" name="anakke" required="" placeholder="e.g. 1"><br>
 
 		<label for="jumlahSaudara">Jumlah saudara: </label><br>
-		<input type="text" name="jumlahSaudara" required=""><br>
+		<input type="text" name="jumlahSaudara" required="" placeholder="e.g. 2"><br>
 
 		<label for="marital">Status </label><br>
 		<input type="radio" name="marital" value="single" checked>Belum menikah
@@ -51,21 +51,23 @@
 
 		<h3>Keterangan Tempat Tinggal</h3>
 		<label for="alamat">Alamat Lengkap </label><br>
-		<textarea name="alamat" cols="30" rows="10"></textarea><br>
+		<textarea name="alamat" cols="30" rows="10" placeholder="e.g. Jl. Layar Raya No. 74 Kelapa dua, Tangerang, Banten"></textarea><br>
 
 		<label for="id">Nomor KTP: </label><br>
-		<input type="text" name="id"><br>
+		<input type="text" name="id" placeholder="360321707950003"><br>
 
 		<label for="hp">Nomor Telp/HP: </label><br>
-		<input type="text" name="hp"><br>
+		<input type="text" name="hp" placeholder="08569911838"><br>
 
 		<label for="alamatl">Alamat Lain </label><br>
-		<textarea name="alamatl" cols="30" rows="10"></textarea><br>
+		<textarea name="alamatl" cols="30" rows="10" placeholder="e.g. Jl. Layar Raya No. 74 Kelapa dua, Tangerang, Banten"></textarea><br>
 
 		<label for="hpl">Nomor Telp/HP lain: </label><br>
-		<input type="text" name="hpl"><br>
+		<input type="text" name="hpl" placeholder="08569911838"><br>
 
-		<button type="submit">Submit</button>
+		
+		<button type="submit" id="pointer">Submit</button>
+		
 
 	</form>
 </div>

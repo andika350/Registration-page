@@ -1,0 +1,25 @@
+.container {
+	text-align: center;
+}
+
+body{
+	background-image: url(valley.jpg);
+}
+
+button {
+	margin: 20px;
+	padding:10px;
+	background-color: white;
+	border-radius: 10px
+}
+
+#pointer{
+	cursor: pointer;
+}
+
+button:hover {
+	margin: 20px;
+	padding:10px;
+	background-color:rgb(80, 171, 2)
+
+}
