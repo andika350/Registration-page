@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width , initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<head>
+	<title>Form Registrasi</title>
+</head>
+<body>
+
+	<u><h1 style="text-align:center;color: rgb(0, 106, 163)">Formulir Pendaftaran</h1></u>
+<div class="container">
+	<form name="regis">
+		<h3>Keterangan Pribadi</h3>
+		<label for="nama">Nama Lengkap: </label><br>
+		<input type="text" name="nama" required=""><br>
+
+		<label for="namap">Nama Panggilan: </label><br>
+		<input type="text" name="namap" required=""><br>
+
+		<label for="gender">Jenis Kelamin: </label><br>
+		<input type="radio" name="gender" value="male" checked="" required="">Pria
+		<input type="radio" name="gender" value="female">Wanita<br>
+
+		<label for="tempatLahir">Tempat Lahir: </label><br>
+		<input type="text" name="tempatLahir" required=""><br>
+
+		<label for="tanggalLahir">Tanggal Lahir: </label><br>
+		<input type="date" name="tanggalLahir" required=""><br>
+
+		<label for="agama">Agama: </label><br>
+		<input type="radio" name="agama" value="Islam" checked > Islam
+		<input type="radio" name="agama" value="Kristen"> Kristen
+		<input type="radio" name="agama" value="Katholik"> Katholik
+		<input type="radio" name="agama" value="Buddha"> Buddha
+		<input type="radio" name="agama" value="Hindu"> Hindu<br>
+
+		<label for="kewarganegaraan">Kewarganegaraan </label><br>
+		<input type="text" name="kewarganegaraan" required=""><br>
+
+		<label for="anakke">Anak ke: </label><br>
+		<input type="text" name="anakke" required=""><br>
+
+		<label for="jumlahSaudara">Jumlah saudara: </label><br>
+		<input type="text" name="jumlahSaudara" required=""><br>
+
+		<label for="marital">Status </label><br>
+		<input type="radio" name="marital" value="single" checked>Belum menikah
+		<input type="radio" name="marital" value="Menikah">Menikah<br>
+
+		<h3>Keterangan Tempat Tinggal</h3>
+		<label for="alamat">Alamat Lengkap </label><br>
+		<textarea name="alamat" cols="30" rows="10"></textarea><br>
+
+		<label for="id">Nomor KTP: </label><br>
+		<input type="text" name="id"><br>
+
+		<label for="hp">Nomor Telp/HP: </label><br>
+		<input type="text" name="hp"><br>
+
+		<label for="alamatl">Alamat Lain </label><br>
+		<textarea name="alamatl" cols="30" rows="10"></textarea><br>
+
+		<label for="hpl">Nomor Telp/HP lain: </label><br>
+		<input type="text" name="hpl"><br>
+
+		<button type="submit">Submit</button>
+
+	</form>
+</div>
+	
+
+</body>
+</html>
