@@ -6,6 +6,11 @@ body{
 	background-image: url(valley.jpg);
 }
 
+input{
+	padding:10px;
+	margin: 10px;
+}
+
 button {
 	margin: 20px;
 	padding:10px;
